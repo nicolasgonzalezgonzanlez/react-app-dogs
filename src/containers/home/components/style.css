@@ -1,0 +1,27 @@
+.divider {
+  height: 1px;
+  background-color: black;
+  padding-right: 15px;
+  margin-left: 15px;
+}
+.container-results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 10% 20px 10%;
+  min-width: 110px;
+  }
+
+.item-results:nth-child(1) {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  }
+
+  .result {
+    padding-top: 22px;
+  }

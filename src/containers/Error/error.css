@@ -1,0 +1,25 @@
+.error-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 40px 3% 20px 3%;
+    text-align: left;
+    }
+
+.error-item:nth-child(1) {
+    order: 0;
+    flex: 10 1 auto;
+    align-self: auto;
+    }
+.card-error {
+    background-color: #494849;
+    min-height: 30px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+}

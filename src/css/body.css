@@ -1,0 +1,27 @@
+ 
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pad {
+    padding-top: 50px;
+  }
+  /*Clase de bulma, la utlizo para sobreescribir el estilo por defecto*/
+  .notification a:not(.button):not(.dropdown-item) {
+    text-decoration: none;
+  }
+  .App {
+    background: url(https://source.unsplash.com/collection/9496370/dogs) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: -9px;
+    margin-left: -1px;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+  }
+  .mar {
+    margin-top: 40px;
+  }
