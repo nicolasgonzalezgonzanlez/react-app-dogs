@@ -3,6 +3,8 @@
 
 ### Consigna.
 
+![texto cualquiera por si no carga la imagen](https://github.com/nicolasgonzalezgonzanlez/react-app-dogs/blob/master/news.gif?raw=true)
+
 Se tiene un web service que provee información sobre razas de perros. El mismo consta de
 dos endpoints, uno que responde un JSON con las razas, y otro que recibe la raza como
 parámetro y devuelve un JSON que contiene una imágen de la raza.
